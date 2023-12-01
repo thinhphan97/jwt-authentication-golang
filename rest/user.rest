@@ -1,0 +1,14 @@
+@host = localhost:8080
+
+// Register User
+POST http://{{host}}/api/user/register HTTP/1.1
+content-type: application/json
+    
+{
+    "name": "Thinh Phan",
+    "username": "ThinhPhan",
+    "email": "thinhphan@gmail.com",
+    "password": "123465789"
+}
+
+###
