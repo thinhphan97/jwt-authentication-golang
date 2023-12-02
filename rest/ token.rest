@@ -1,11 +1,11 @@
 @host = localhost:8080
 
 // Generate JWT
-POST http://{{host}}/api/token HTTP/1.1
+POST http://{{host}}/api/v1/token HTTP/1.1
 content-type: application/json
     
 {
-    "email": "mukesh@go.com",
+    "email": "thinhphan@gmail.com",
     "password": "123465789"
 }
 
